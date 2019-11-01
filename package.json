@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-
-    "build-lib": "ng build my-custom-lib --watch"
+    "build-lib": "ng build my-custom-lib --watch",
+    "publish-lib": "npm publish ./dist/my-custom-lib"
   },
   "private": true,
   "dependencies": {
